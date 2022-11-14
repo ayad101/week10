@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author ayad
  */
-@WebFilter(filterName = "AdminFilter", servletNames = {"AdminServlet"})
+@WebFilter(filterName = "adminfilter", servletNames = {"AdminServlet"})
 public class adminfilter implements Filter {
 
     /**
